@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+body{font-family: Roboto, serif; background: linear-gradient(90deg, #CA2121 0%, #230C0C 100%); color: aquamarine;}
+.col-lg-3 col-md-12{background: linear-gradient(270deg, #CA2121 0%, #230C0C 100%);}
+.sidebar{color: aquamarine; }
+img{height: 350px;}
+form{color: aquamarine;}
+.card{background: linear-gradient(270deg, #CA2121 0%, #230C0C 100%); color: aquamarine;}
+.slide-text, .footer-text{color: aquamarine; margin: auto auto;}
+.media-links{display: flex; justify-content: center; align-items: center;}
+@media(max-width: 750px;)
+footer{background: linear-gradient(270deg, #CA2121 0%, #230C0C 100%);}
+.animation{animation: myAnim 2s ease 0s infinite normal forwards;}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.rating{margin-bottom: 0; padding-left: 0; list-style-type: 0; color: yellow;}
+.rating li{display: inline-block;}
+.add-to-cart{border: none; height: 40px; width: 40px; display: flex; align-content: center; justify-content: center; background-color: chartreuse; color: black; border-radius: 10px; margin-top: 10px;}
+.info{display: flex; flex-flow: nowrap row; justify-content: space-between; align-items: center;}
